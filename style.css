@@ -14,7 +14,7 @@ main{
 .author{
     display: flex;
     align-items: center;
-    gap: 55px;
+    gap: 10px;
     margin-bottom: 50px;
     size: 50px;
     
