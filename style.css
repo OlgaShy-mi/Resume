@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', Times, serif;
 }
 main{
     width: 929px;
@@ -10,6 +10,10 @@ main{
     padding-bottom: 31px;
     min-width: 200px;
     max-width: 500px;
+}
+.container{
+    padding-top: 5px;
+    margin: 5px;
 }
 .author{
     display: flex;
@@ -35,6 +39,7 @@ h1{
 .author img{
     border-radius: 50%;
     width: 30%;
+    padding-left: 5px;
     
 }
 .author p{
@@ -47,14 +52,14 @@ h1{
 .contacts{
     background: #846ded;
     border-radius: 5px;
-    padding: 80px;
+    padding: 70px;
     color: white;
     margin-bottom: 50px;
 }
 h2{
     font-size: 24px;
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     line-height: 160%;
     color: #05020f;
 }
@@ -80,8 +85,11 @@ li a{
     color: #000311
 }
 .projects{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     background: #846ded;
+    padding-bottom: 30px;
+    color: white;
+    border-radius: 5px;
 
 }
 ul{
@@ -96,7 +104,7 @@ ul li{
     margin-top: 10px;
 }
 .soft-skills{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     background: #846ded;
     border-radius: 5px;
     padding: 70px;
