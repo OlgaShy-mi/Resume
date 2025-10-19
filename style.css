@@ -8,6 +8,8 @@ main{
     margin-right: auto;
     padding-top: 31px;
     padding-bottom: 31px;
+    min-width: 200px;
+    max-width: 500px;
 }
 .author{
     display: flex;
@@ -28,6 +30,7 @@ h1{
 }
 .author img{
     border-radius: 50%;
+    width: 50%;
     
 }
 .author p{
@@ -48,7 +51,7 @@ h2{
     margin-top: 0;
     margin-bottom: 20px;
     line-height: 160%;
-    color: #846ded;
+    color: #05020f;
 }
 .contacts h2{
     color: white;
@@ -88,6 +91,21 @@ ul li{
 }
 .soft-skills{
     margin-bottom: 50px;
+    background: #846ded;
+    border-radius: 5px;
+    padding: 70px;
+    
+   
+}
+.soft-skills p{
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 20px;
+    line-height: 160%;
+
+}
+.soft-skills ul li{
+    color: white;
 }
 
 
