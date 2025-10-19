@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 main{
     width: 929px;
@@ -14,11 +14,15 @@ main{
 .author{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
     margin-bottom: 50px;
-    size: 50px;
+    size: 100%;
+    background: #846ded;
     
 
+}
+.author-bin{
+    font-size: 20px;
 }
 h1{
     margin-bottom: 20px;
@@ -30,19 +34,20 @@ h1{
 }
 .author img{
     border-radius: 50%;
-    width: 50%;
+    width: 30%;
     
 }
 .author p{
     font-weight: 400;
-    font-size: 15px;
+    font-size: 10px;
     line-height: 160%;
     margin: 0;
+
 }
 .contacts{
     background: #846ded;
     border-radius: 5px;
-    padding: 70px;
+    padding: 80px;
     color: white;
     margin-bottom: 50px;
 }
@@ -60,7 +65,7 @@ h2{
     margin: 0;
     margin-bottom: 5px;
     font-size: 20px;
-    line-height: 160%;
+    line-height: 100%;
 }
 ol{
     font-size: 20px;
@@ -72,10 +77,11 @@ ol li{
 
 }
 li a{
-    color: #3a5dff
+    color: #000311
 }
 .projects{
     margin-bottom: 50px;
+    background: #846ded;
 
 }
 ul{
@@ -108,5 +114,15 @@ ul li{
     color: white;
 }
 
+
+@media only screen and (max-width: 600px) {
+      /* Styles for phones and very small screens */
+      body {
+        font-size: 14px;
+      }
+      .navigation {
+        flex-direction: column;
+      }
+    }
 
 
